@@ -1,7 +1,7 @@
 function testTimeout(callback) {
 	setTimeout(() => {
 		callback('testing setTimeout async function');
-	}, 1000);
+	}, 500);
 }
 
 function fetchPromise(x) {
@@ -11,7 +11,7 @@ function fetchPromise(x) {
 		} else {
 			setTimeout(() => {
 				resolve('testing promise async function');
-			}, 2000);
+			}, 500);
 		}
 	});
 }

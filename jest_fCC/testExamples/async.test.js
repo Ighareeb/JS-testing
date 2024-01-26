@@ -25,7 +25,7 @@ it('should resolve promise after 2 seconds', () => {
 	);
 });
 test('should reject promise with an error', () => {
-	return expect(fetchPromise(0)).rejects.toThrow('error');
+	return expect(fetchPromise(0)).rejects.toEqual('error');
 });
 
 it('should return the name of the pokemon', async () => {
