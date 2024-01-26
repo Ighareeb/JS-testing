@@ -1,0 +1,14 @@
+{
+	"name": "jest_fcc",
+	"version": "1.0.0",
+	"description": "jest course fCC",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
+}
