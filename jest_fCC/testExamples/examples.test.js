@@ -1,5 +1,7 @@
 const sum = require('./examples');
 
+//note: test()/it() are interchangeable ways to define a test case (only semantic difference)
+
 //.toBe used for === so used with primitive data types
 test('test add without using imported function', () => {
 	expect(2 + 2).toBe(4);
